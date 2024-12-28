@@ -103,8 +103,8 @@ class _BottomNavigationBarExampleState
             label: 'Gallery screen',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.camera),
-            label: 'Live Camera',
+            icon: Icon(Icons.videocam_sharp),
+            label: 'بث مباشر',
           ),
         ],
         currentIndex: _selectedIndex,

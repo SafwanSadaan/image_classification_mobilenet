@@ -337,5 +337,5 @@ class Interpreter {
 
   bool get isDeleted => _deleted;
 
-  //TODO: (JAVA) void modifyGraphWithDelegate(Delegate delegate)
+  // (JAVA) void modifyGraphWithDelegate(Delegate delegate)
 }

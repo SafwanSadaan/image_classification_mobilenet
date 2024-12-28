@@ -2163,8 +2163,8 @@ abstract class TfLiteStatus {
 
   /// Generally referring to invocation cancelled by the user.
   /// See `interpreter::Cancel`.
-  /// TODO(b/194915839): Implement `interpreter::Cancel`.
-  /// TODO(b/250636993): Cancellation triggered by `SetCancellationFunction`
+  /// Implement `interpreter::Cancel`.
+  /// Cancellation triggered by `SetCancellationFunction`
   /// should also return this status code.
   static const int kTfLiteCancelled = 8;
 }
@@ -2872,7 +2872,7 @@ final class TfLiteDelegateParams extends ffi.Struct {
 
 /// Light-weight tensor struct for TF Micro runtime. Provides the minimal amount
 /// of information required for a kernel to run during TfLiteRegistration::Eval.
-/// TODO(b/160955687): Move this field into TF_LITE_STATIC_MEMORY when TFLM
+///  Move this field into TF_LITE_STATIC_MEMORY when TFLM
 /// builds with this flag by default internally.
 final class TfLiteEvalTensor extends ffi.Struct {
   /// A union of data pointers. The appropriate type should be used for a typed

@@ -1,0 +1,15 @@
+grape-botrytis
+grape-healthy
+grape-aphid_of_beans
+grape-ucinula_necator
+grape-plaasmopara_viticola
+grape-pseudocercos_pora_vitis
+grape-franliniella_occidentalalis
+grape-bemisia_tabaci
+grape-pseudococcus_maritimus
+grape-phomopsis_viticola
+qat-erysiphe
+qat-tetranychus
+qat-nectria
+qat-empoasca
+qat-agrotis
